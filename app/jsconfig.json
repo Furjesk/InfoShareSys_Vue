@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            //src文件夹配置别名@
+            "@/*":[
+                "src/*"
+            ]
+        }
+    },
+    //不能在这里使用@
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
